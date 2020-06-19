@@ -133,7 +133,8 @@ def num_points_scored(player_name)
     team_data.each do |key, value|
       if team_data[:players] == player_name
         value
-binding.pry
+# binding.pry
+end
 end
 end
 end
