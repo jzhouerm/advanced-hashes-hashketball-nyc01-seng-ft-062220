@@ -132,7 +132,6 @@ def num_points_scored(player_name)
   points_scored = 0
   game_hash.each do |location, key|
     key.each do |players, details|
-      binding.pry
       if players == :players
         details.each do |player_name_detail|
           if player == player_name_detail[:player_name]
