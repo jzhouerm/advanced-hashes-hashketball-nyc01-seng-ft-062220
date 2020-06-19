@@ -136,7 +136,7 @@ def num_points_scored(player_name)
       if players == :players
         details.each do |player_name_detail|
           if player == player_name_detail[:player_name]
-            points_scored = (player_name_detil][:points])
+            points_scored = (player_name_detil[:points])
 end
 end
 end
